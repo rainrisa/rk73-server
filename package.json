@@ -8,6 +8,9 @@
     "start": "node ./dist/server.js",
     "build": "tsc"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.13",
